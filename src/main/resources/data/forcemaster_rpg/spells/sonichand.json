@@ -69,7 +69,7 @@
       "action": {
         "type": "STATUS_EFFECT",
         "status_effect": {
-          "effect_id": "forcemaster_soul:soul_overflow",
+          "effect_id": "soulmaster:soul_overflow",
           "duration": 8.0,
           "amplifier": 2,
           "apply_mode": "ADD",

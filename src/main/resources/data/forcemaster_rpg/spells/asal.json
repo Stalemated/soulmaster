@@ -90,7 +90,7 @@
       "action": {
         "type": "STATUS_EFFECT",
         "status_effect": {
-          "effect_id": "forcemaster_rpg:barq_esna",
+          "effect_id": "soulmaster:soul_barq_esna",
           "duration": 5.0,
           "amplifier": 1,
           "apply_mode": "ADD",
