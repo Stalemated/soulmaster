@@ -1,6 +1,6 @@
-package com.stalemated.forcemaster_soul.mixin;
+package com.stalemated.soulmaster.mixin;
 
-import com.stalemated.forcemaster_soul.entity.attribute.SoulFuseAttribute;
+import com.stalemated.soulmaster.entity.attribute.SoulFuseAttribute;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;

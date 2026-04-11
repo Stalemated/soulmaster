@@ -1,6 +1,6 @@
-package com.stalemated.forcemaster_soul.effects;
+package com.stalemated.soulmaster.effects;
 
-import com.stalemated.forcemaster_soul.entity.attribute.SoulFuseAttribute;
+import com.stalemated.soulmaster.entity.attribute.SoulFuseAttribute;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.effect.StatusEffect;
@@ -12,8 +12,8 @@ import net.spell_engine.api.effect.*;
 import net.spell_power.api.SpellPower;
 import net.spell_power.api.SpellSchools;
 
-import static com.stalemated.forcemaster_soul.ForcemasterSoul.MOD_ID;
-import static com.stalemated.forcemaster_soul.ForcemasterSoul.config;
+import static com.stalemated.soulmaster.Soulmaster.MOD_ID;
+import static com.stalemated.soulmaster.Soulmaster.config;
 
 public class Effects {
 

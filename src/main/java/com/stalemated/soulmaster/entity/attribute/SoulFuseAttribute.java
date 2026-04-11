@@ -1,4 +1,4 @@
-package com.stalemated.forcemaster_soul.entity.attribute;
+package com.stalemated.soulmaster.entity.attribute;
 
 import net.minecraft.entity.attribute.ClampedEntityAttribute;
 import net.minecraft.entity.attribute.EntityAttribute;
@@ -6,7 +6,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-import static com.stalemated.forcemaster_soul.ForcemasterSoul.MOD_ID;
+import static com.stalemated.soulmaster.Soulmaster.MOD_ID;
 
 public class SoulFuseAttribute {
 

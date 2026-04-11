@@ -1,15 +1,15 @@
-package com.stalemated.forcemaster_soul;
+package com.stalemated.soulmaster;
 
-import com.stalemated.forcemaster_soul.config.Config;
-import com.stalemated.forcemaster_soul.effects.Effects;
-import com.stalemated.forcemaster_soul.entity.attribute.SoulFuseAttribute;
+import com.stalemated.soulmaster.config.Config;
+import com.stalemated.soulmaster.effects.Effects;
+import com.stalemated.soulmaster.entity.attribute.SoulFuseAttribute;
 import net.fabricmc.api.ModInitializer;
 import net.tinyconfig.ConfigManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class ForcemasterSoul implements ModInitializer {
-	public static final String MOD_ID = "forcemaster_soul";
+public class Soulmaster implements ModInitializer {
+	public static final String MOD_ID = "soulmaster";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
@@ -17,7 +17,7 @@ public class ForcemasterSoul implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	public static ConfigManager<Config> config = new ConfigManager<>
-            ("forcemaster_soul", new Config())
+            ("soulmaster", new Config())
 			.builder()
 			.setDirectory(MOD_ID)
 			.sanitize(true)
@@ -34,6 +34,6 @@ public class ForcemasterSoul implements ModInitializer {
 
 		Effects.register();
 		config.save();
-		LOGGER.info("Forcemaster Soul initialized!");
+		LOGGER.info("Soulmaster initialized!");
 	}
 }

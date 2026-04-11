@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "com.stalemated.forcemaster_soul.mixin",
+  "package": "com.stalemated.soulmaster.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "PlayerEntityMixin"

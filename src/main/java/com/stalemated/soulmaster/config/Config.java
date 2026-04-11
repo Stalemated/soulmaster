@@ -1,4 +1,4 @@
-package com.stalemated.forcemaster_soul.config;
+package com.stalemated.soulmaster.config;
 
 public class Config {
     public float soul_overflow_soul_fuse_multiply = 0.15f;

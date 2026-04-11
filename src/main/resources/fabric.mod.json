@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "forcemaster_soul",
+	"id": "soulmaster",
 	"version": "${version}",
-	"name": "Forcemaster Soul",
+	"name": "Soulmaster",
 	"description": "Reworks Forcemaster RPG to scale with Soul Power.",
 	"authors": [
 		"Stalemated"
@@ -12,15 +12,15 @@
 		"sources": "https://github.com/Stalemated/forcemaster-soul"
 	},
 	"license": "MIT",
-	"icon": "assets/forcemaster_soul/icon.png",
+	"icon": "assets/soulmaster/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.stalemated.forcemaster_soul.ForcemasterSoul"
+			"com.stalemated.soulmaster.Soulmaster"
 		]
 	},
 	"mixins": [
-		"forcemaster_soul.mixins.json"
+		"soulmaster.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",
