@@ -3,6 +3,7 @@
   "package": "com.stalemated.soulmaster.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "ForcemasterInitMixin",
     "PlayerEntityMixin"
   ],
   "injectors": {

@@ -2,7 +2,6 @@ package com.stalemated.soulmaster;
 
 import com.stalemated.soulmaster.config.Config;
 import com.stalemated.soulmaster.effects.Effects;
-import com.stalemated.soulmaster.entity.attribute.SoulFuseAttribute;
 import net.fabricmc.api.ModInitializer;
 import net.tinyconfig.ConfigManager;
 import org.slf4j.Logger;
@@ -30,7 +29,6 @@ public class Soulmaster implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		config.refresh();
-		SoulFuseAttribute.registerAttributes();
 
 		Effects.register();
 		config.save();
